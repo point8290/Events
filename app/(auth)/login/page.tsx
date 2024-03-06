@@ -5,9 +5,9 @@ type Props = {};
 
 export default function Login({}: Props) {
   return (
-    <div className="w-96 mx-auto flex justify-center items-center flex-col mt-2 ">
+    <div className="w-96 mx-auto flex justify-center items-center flex-col">
       <form className="mt-2 w-full ">
-        <div className="p-2 w-full mx-1 my-1 flex flex-col items-start">
+        <div className="py-1 w-full m-1 flex flex-col items-start">
           <label className="py-2 font-semibold" htmlFor="email">
             Email
           </label>
@@ -18,7 +18,7 @@ export default function Login({}: Props) {
             placeholder="Enter your email"
           />
         </div>
-        <div className="p-2 w-full mx-1 my-1 flex flex-col items-start">
+        <div className=" py-1 w-full m-1 flex flex-col items-start">
           <label className="py-2 font-semibold" htmlFor="password">
             Password
           </label>
@@ -29,11 +29,11 @@ export default function Login({}: Props) {
             placeholder="Enter your password"
           />
         </div>
-        <div className="p-2 mx-1 my-2 flex justify-between items-center">
+        <div className="px-2 py-1 mx-1 my-2 flex justify-between items-center">
           <p className="text-sm">
             Don't have an account?
             <Link className="text-blue-700 underline pl-1" href="/register">
-              Register here
+              Sign up
             </Link>
           </p>
         </div>

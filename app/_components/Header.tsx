@@ -51,7 +51,12 @@ export default function Header({}: Props) {
               </li>
               <li>
                 <Link href="/register">
-                  <p>Register</p>
+                  <p>Sign up</p>
+                </Link>
+              </li>
+              <li>
+                <Link href="/login">
+                  <p>Sign in</p>
                 </Link>
               </li>
             </ul>

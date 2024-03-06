@@ -11,9 +11,9 @@ export default function Register({}: Props) {
     router.replace("/login");
   };
   return (
-    <div className="w-96 mx-auto flex justify-center items-center flex-col mt-2 ">
+    <div className="w-96 mx-auto flex justify-center items-center flex-col ">
       <form className="mt-2 w-full ">
-        <div className="p-2 w-full mx-1 my-1 flex flex-col items-start">
+        <div className=" py-1 w-full m-1 flex flex-col items-start">
           <label className="py-2 font-semibold" htmlFor="email">
             Email
           </label>
@@ -24,7 +24,7 @@ export default function Register({}: Props) {
             placeholder="Enter your email"
           />
         </div>
-        <div className="p-2 w-full mx-1 my-1 flex flex-col items-start">
+        <div className="py-1 w-full m-1 flex flex-col items-start">
           <label className="py-2 font-semibold" htmlFor="password">
             Password
           </label>
@@ -39,7 +39,7 @@ export default function Register({}: Props) {
           <p className="text-sm">
             Already have an account?
             <Link className="text-blue-700 pl-1 underline" href="/login">
-              Login here
+              Sign in
             </Link>
           </p>
         </div>

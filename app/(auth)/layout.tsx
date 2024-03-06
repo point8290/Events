@@ -1,5 +1,7 @@
+import Image from "next/image";
 import Link from "next/link";
 import { FaGoogle, FaPhone } from "react-icons/fa6";
+import Logo from "../../public/logo2.png";
 
 export default function AuthLayout({
   children,
@@ -8,8 +10,9 @@ export default function AuthLayout({
 }>) {
   return (
     <div>
-      <div className="w-96 mx-auto flex justify-center items-center flex-col mt-4 ">
-        <h1 className="font-bold text-2xl mt-2"> Get started </h1>
+      <div className="w-96 mx-auto flex items-center flex-col  ">
+        <Image className="h-[150px] w-[150px]" src={Logo} alt="BookAtEase" />
+        <h1 className="font-bold text-2xl"> Get started </h1>
       </div>
       {children}
       <div className="flex w-96 mx-auto justify-center flex-col items-center">
