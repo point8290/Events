@@ -11,8 +11,8 @@ export default function Sidebar({ sidebarOpen, toggleSidebar }: Props) {
   return (
     <>
       <FaX
-        size={20}
-        className="self-end items-start text-white h-[10%]"
+        size={15}
+        className=" self-end items-start text-white h-[10%]"
         onClick={toggleSidebar}
       />
       <ul className="flex flex-col gap-4  h-[80%] my-auto text-white">
